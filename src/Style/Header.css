@@ -1,0 +1,19 @@
+.HeaderMenuItem{
+    margin-right: 20px;
+    font-size: 24px;
+    transition: border 0.3s ease; 
+    border: 1px solid transparent;
+}
+
+.HeaderMenuItem:hover{
+    border-bottom: 2px solid black;
+}
+
+h1 {
+    margin-left: 30px;
+}
+a {
+    color: black;
+    text-decoration: none;
+
+}
