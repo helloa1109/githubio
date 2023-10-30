@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/githubio/static/css/main.ace1997e.css",
+    "main.js": "/githubio/static/js/main.72c36f23.js",
+    "static/js/787.be5e4edb.chunk.js": "/githubio/static/js/787.be5e4edb.chunk.js",
+    "static/media/logo.png": "/githubio/static/media/logo.877ad0df5a3717e685fb.png",
+    "static/media/dreamstay.png": "/githubio/static/media/dreamstay.ef2e404dd31730a1fd55.png",
+    "static/media/wepli.png": "/githubio/static/media/wepli.b5eec0dcca8e84199a14.png",
+    "static/media/IntelliJ.png": "/githubio/static/media/IntelliJ.45af9d3c3245f5fcac85.png",
+    "static/media/vscode.png": "/githubio/static/media/vscode.19edc3fbac1c451f289d.png",
+    "static/media/confluence.png": "/githubio/static/media/confluence.b4ef785bf7ca0e4bbf0d.png",
+    "static/media/recoil.png": "/githubio/static/media/recoil.f8ac344658e5aee4ad2d.png",
+    "static/media/js.png": "/githubio/static/media/js.28d87eb26073cbc28c61.png",
+    "static/media/css.png": "/githubio/static/media/css.8ea58d31a9d39dd59031.png",
+    "static/media/jquery.png": "/githubio/static/media/jquery.0bcc2a2f079171db4538.png",
+    "static/media/styled.png": "/githubio/static/media/styled.76b9df72acc5afb0c385.png",
+    "static/media/notion.png": "/githubio/static/media/notion.7aa264a898951e791ee3.png",
+    "static/media/ts.png": "/githubio/static/media/ts.9ca86337ef133c4b00ef.png",
+    "index.html": "/githubio/index.html",
+    "main.ace1997e.css.map": "/githubio/static/css/main.ace1997e.css.map",
+    "main.72c36f23.js.map": "/githubio/static/js/main.72c36f23.js.map",
+    "787.be5e4edb.chunk.js.map": "/githubio/static/js/787.be5e4edb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ace1997e.css",
+    "static/js/main.72c36f23.js"
+  ]
+}
