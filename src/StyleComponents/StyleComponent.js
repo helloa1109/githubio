@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import wepli from "../img/wepli.png";
 import dreamStay from "../img/dreamstay.png";
 import goodSeul from "../img/logo.png";
+
 /* Section1 */
 export const Container1 = styled.div`
   display: flex;
@@ -25,8 +26,14 @@ export const Container1Link = styled.div`
 export const Container2 = styled.div`
     margin-top: 84px;
     background-color: black;
-    height: 91.5vh;
+    height: 80vh;
     width: 100%;
+    height: auto;
+
+    @media (min-width: 768px) {
+        height: 91.5vh;
+        flex-direction: row; 
+    }
 `;
 
 export const Container2Inner = styled.div`
@@ -36,11 +43,16 @@ export const Container2Inner = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    @media (min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+    }
 `;
 
 export const Container2MyText = styled.div`
     color: white;
-    font-size: 24px;
+    font-size: 32px;
     margin-top: 10px;
     margin-bottom: 5;
     text-align: center;
@@ -49,7 +61,7 @@ export const Container2MyText = styled.div`
 export const Container2Span = styled.div`
     color: white;
     font-size: 42px;
-    font-weight: 800;
+    font-weight: 600;
 `;
 
 export const Container2SpanInfo = styled.div`
@@ -62,19 +74,14 @@ export const Container2Contact = styled.div`
     font-size: 18px;
     font-weight: 800;
     margin-top: 40px;
-    
+    border-bottom: 1px solid #ccc;
 `;
 
 export const Container2ContactInfo = styled.div`
     color: white;
-    border: 1px solid #ccc;
     padding: 5px 5px;
     margin-top: 10px;
 
-    &:hover {
-        border: 1px solid green;
-        transition: 0.5s;
-    }
 `;
 
 /* Section3 */
@@ -85,11 +92,19 @@ export const Container3 = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
+
+    @media (max-width: 767px) {
+        height: auto;
+        margin-top: 100px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 `
 
 /* Section4 */
 export const Container4 = styled.div`
-    width: 100vw;
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -121,65 +136,16 @@ export const Container4InfoText = styled.div`
     border-radius: 20px;
     padding: 5px;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     width: 60px auto;
     margin-left: 10px;
     font-weight: 600;
-    color: white;
     cursor: pointer;
     margin-top: 10px;
-
-    &:nth-child(1){
-        background-color: #61DAFB;
-    }
-
-    &:nth-child(2){
-        background-color: #aaaaaa;
-    }
-
-    &:nth-child(3){
-        background-color: #5A29E4;
-    }
-
-    &:nth-child(4){
-        background-color: #1472B6;
-    }
-
-    &:nth-child(5){
-        background-color: #1472B6;
-    }
-
-    &:nth-child(6){
-        background-color: #1472B6;
-    }
-
-    &:nth-child(7){
-        background-color: #C86195;
-        color: white;
-    }
 `;
 
 export const Container4InfoText2 = styled(Container4InfoText)`
 
-     &:nth-child(1){
-        background-color: #E34F26;
-    }
-
-    &:nth-child(2){
-        background-color: #1472B6;
-    }
-
-    &:nth-child(3){
-        background-color: #F7DF1C;
-    }
-
-    &:nth-child(5){
-        background-color: #7852B2;
-    }
-
-    &:nth-child(6){
-        background-color: #6DB33F;
-    }
 `;
 
 export const Container4Card = styled.div`
@@ -221,7 +187,6 @@ export const Container4Card = styled.div`
         font-size: 22px;
         font-weight: 600;
     }
-
 `;
 export const Container4Card2 = styled(Container4Card)`
     background-image: url(${dreamStay});
@@ -261,6 +226,17 @@ export const Container4Button = styled.a`
     }
 `;
 
+export const Container4More = styled.div`
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-50%);
+    bottom: 60px; 
+    left: 50%; 
+    cursor: pointer;
+    font-size: 14px;
+`;
 
 /* 헤더 */
 export const HeaderContainer = styled.div`
