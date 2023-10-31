@@ -1,11 +1,19 @@
 {
   "files": {
-    "main.css": "/githubio/static/css/main.ace1997e.css",
-    "main.js": "/githubio/static/js/main.72c36f23.js",
+    "main.css": "/githubio/static/css/main.6554b1ba.css",
+    "main.js": "/githubio/static/js/main.6f48e061.js",
     "static/js/787.be5e4edb.chunk.js": "/githubio/static/js/787.be5e4edb.chunk.js",
+    "static/media/other.gif": "/githubio/static/media/other.a9762304a79e19bffa0e.gif",
+    "static/media/nouser.gif": "/githubio/static/media/nouser.0fb0736948981bd64409.gif",
+    "static/media/nouser2.gif": "/githubio/static/media/nouser2.a07254691714b99d64da.gif",
+    "static/media/mypage.gif": "/githubio/static/media/mypage.ee816f4a270c5c5b21f8.gif",
     "static/media/logo.png": "/githubio/static/media/logo.877ad0df5a3717e685fb.png",
+    "static/media/pay.gif": "/githubio/static/media/pay.ca1160cf9c3bb3c18c05.gif",
+    "static/media/qna.gif": "/githubio/static/media/qna.0bcd6884dce758fa85c5.gif",
     "static/media/dreamstay.png": "/githubio/static/media/dreamstay.ef2e404dd31730a1fd55.png",
     "static/media/wepli.png": "/githubio/static/media/wepli.b5eec0dcca8e84199a14.png",
+    "static/media/footer.png": "/githubio/static/media/footer.71699b0acd47696ae419.png",
+    "static/media/finish.gif": "/githubio/static/media/finish.e27c259ef3d71d7e9493.gif",
     "static/media/IntelliJ.png": "/githubio/static/media/IntelliJ.45af9d3c3245f5fcac85.png",
     "static/media/vscode.png": "/githubio/static/media/vscode.19edc3fbac1c451f289d.png",
     "static/media/confluence.png": "/githubio/static/media/confluence.b4ef785bf7ca0e4bbf0d.png",
@@ -17,12 +25,12 @@
     "static/media/notion.png": "/githubio/static/media/notion.7aa264a898951e791ee3.png",
     "static/media/ts.png": "/githubio/static/media/ts.9ca86337ef133c4b00ef.png",
     "index.html": "/githubio/index.html",
-    "main.ace1997e.css.map": "/githubio/static/css/main.ace1997e.css.map",
-    "main.72c36f23.js.map": "/githubio/static/js/main.72c36f23.js.map",
+    "main.6554b1ba.css.map": "/githubio/static/css/main.6554b1ba.css.map",
+    "main.6f48e061.js.map": "/githubio/static/js/main.6f48e061.js.map",
     "787.be5e4edb.chunk.js.map": "/githubio/static/js/787.be5e4edb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ace1997e.css",
-    "static/js/main.72c36f23.js"
+    "static/css/main.6554b1ba.css",
+    "static/js/main.6f48e061.js"
   ]
 }
